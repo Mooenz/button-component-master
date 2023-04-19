@@ -1,0 +1,23 @@
+:root {
+  --fontFamily1: 'Poppins', sans-serif;
+  --fontFamily2: 'Ubuntu Mono', monospace;
+  --fontFamily3: 'Noto Sans Jp', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+}
+
+html,
+body {
+  min-height: 100vh;
+  color: #fff;
+  background: #222222;
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-size: 62.5%;
+}
