@@ -2,6 +2,13 @@
   --fontFamily1: 'Poppins', sans-serif;
   --fontFamily2: 'Ubuntu Mono', monospace;
   --fontFamily3: 'Noto Sans Jp', sans-serif;
+
+  --primary: 45, 152, 218;  /* #2d98da */
+  --secondary: 0, 0, 0;  /* #000 */
+  --info: 0, 0, 0;  /* #000 */
+  --success: 0, 0, 0;  /* #000 */
+  --warning: 234, 181, 67;  /* #EAB543 */
+  --danger: 0, 0, 0;  /* #000 */
 }
 
 *,
@@ -16,7 +23,7 @@ html,
 body {
   min-height: 100vh;
   color: #fff;
-  background: #222222;
+  background: #212121;
   transition: color 0.5s, background-color 0.5s;
   line-height: 1.6;
   font-size: 62.5%;

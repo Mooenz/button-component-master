@@ -9,8 +9,8 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "vue": "^3.2.47",
-    "vue-material-design-icons": "^5.2.0"
+    "gh-pages": "^5.0.0",
+    "vue": "^3.2.47"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",

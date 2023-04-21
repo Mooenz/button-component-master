@@ -1,5 +1,6 @@
 <script setup>
 import Button from './components/Button.vue';
+
 </script>
 
 <template>
@@ -8,23 +9,38 @@ import Button from './components/Button.vue';
 
     <section class="section__buttons">
       <Button />
+      <Button disabled />
       <Button starIcon="add_shopping_cart" />
+
+      <Button starIcon="west" nameButton="Back" color="primary"/>
+      <Button endIcon="expand_more" nameButton="More" color="secondary"/>
+      <Button endIcon="east" nameButton="Go" color="danger"/>
+
+      <Button nameButton="Sing in" color="info" variant="outline"/>
+      <Button starIcon="add" nameButton="Create" color="warning" variant="outline"/>
+      <Button starIcon="emoji_events" nameButton="My favorites" color="success" variant="outline"/>
+
+      <Button nameButton="Click Here" color="primary" variant="text" disabledShadow/>
+      <Button nameButton="Click Here" variant="text" disabledShadow/>
+      <Button nameButton="Click Here" color="danger" variant="text" disabledShadow/>
+      
     </section>
   </section>
 </template>
 
 <style scoped>
+
 .section {
-  padding: 7rem 2.4rem;
+  padding: 4rem 2.4rem;
   width: 100%;
   max-width: 120rem;
   margin: 0 auto;
 }
+
 .section__buttons {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
-  /* grid-template-columns: repeat(2, 1fr); */
 }
 
 .title {
