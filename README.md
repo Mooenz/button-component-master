@@ -1,16 +1,51 @@
-# button-component-master
+<!-- Please update value in the {}  -->
 
-This template should help get you started developing with Vue 3 in Vite.
+<h1 align="center">Button Component Master</h1>
 
-## Recommended IDE Setup
+<div align="center">
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+<div align="center">
+  <h3>
+    <a href="https://mooenz.github.io/button-component-master/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/solutions/cMLm47uQoM2zM5YvPbv7">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-## Customize configuration
+<!-- TABLE OF CONTENTS -->
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Table of Contents
 
-## Project Setup
+- [Table of Contents](#table-of-contents)
+- [Overview](#overview)
+  - [Built With](#built-with)
+- [How To Use](#how-to-use)
+  - [Compile and Hot-Reload for Development](#compile-and-hot-reload-for-development)
+  - [Compile and Minify for Production](#compile-and-minify-for-production)
+- [Contact](#contact)
+
+<!-- OVERVIEW -->
+
+## Overview
+
+![screenshot](./solution/mooenz-desktop.jpg)
+<!-- ![screenshot](./solution/mooenz-mobile.jpg) -->
+
+### Built With
+
+- [Vue.js](https://vuejs.org/)
+
+## How To Use
 
 ```sh
 npm install
@@ -24,6 +59,12 @@ npm run dev
 
 ### Compile and Minify for Production
 
-```sh
+````sh
 npm run build
-```
+````
+
+## Contact
+
+- Website [mooenz.me](https://www.mooenz.me/)
+- GitHub [@mooenz](https://github.com/Mooenz)
+- Twitter [@mooenzdev](https://twitter.com/MooenzDev)
